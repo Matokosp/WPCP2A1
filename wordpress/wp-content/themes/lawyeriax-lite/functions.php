@@ -360,6 +360,8 @@ function lawyeriax_customizer_script() {
 
 	wp_enqueue_script( 'selectric', get_template_directory_uri() . '/js/jquery.selectric.js', array( 'jquery' ), '1.0.0' );
 
+	
+
 }
 add_action( 'customize_controls_enqueue_scripts', 'lawyeriax_customizer_script', 10 );
 
