@@ -98,6 +98,8 @@ $preloader_toggle = get_theme_mod( 'preloader_toggle', '1' );
 	</div>
 </div>
 
+<?php get_template_part( 'template-parts/script', 'hola'); ?>
+
 <?php wp_footer(); ?>
 
 </body>

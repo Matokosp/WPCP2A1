@@ -53,5 +53,7 @@ lawyeriax_news_section();
 ?>
 
 	<div class="container">
+
+
 <?php
 get_footer();

@@ -58,13 +58,13 @@
 				'after'  => '</div>',
 			) );
 		?>
-	<a href="<?php echo the_permalink( $id ); ?>" title="Read more" class="read-more"> <?php echo __( 'Read more...', 'lawyeriax-lite' ) ?> </a>
+	<a href="<?php echo the_permalink( $id ); ?>" title="Read more" class="boton-rojo read-more"> <?php echo __( 'Read more...', 'lawyeriax-lite' ) ?> </a>
 	</div><!-- .entry-content -->
 
 
-	<footer class="entry-footer">
-		<?php lawyeriax_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	<!-- <footer class="entry-footer"> -->
+		<!-- <?php lawyeriax_entry_footer(); ?> -->
+	<!-- </footer> --><!-- .entry-footer -->
 
 	<?php if ( ! is_single() ) { ?>
 		<div class="col-sm-10 col-sm-offset-1 section-line section-line-blog-roll"></div><div class="clearfix"></div>
